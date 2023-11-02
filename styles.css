@@ -119,6 +119,7 @@ main h1{
     color: rgb(209, 182, 100);
     font-family: 'Montserrat';
     text-align: center;
+    background-color: rgba(43, 37, 37, 0.107);
     margin: 1rem 2rem;
 }
 
