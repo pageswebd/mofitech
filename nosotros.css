@@ -11,13 +11,13 @@ body {
 }
 
 .hero {
-    background-image: url(./Images/imagenes/3.jpg);
+    background-color: #002d7e;
     background-size: 100%;
     opacity: 92%;
 }
 
 header {
-    background-color: rgb(23, 21, 21);  
+    background-color: #154251;  
 }
 
 .navbar {
@@ -27,13 +27,17 @@ padding: 30px;
 }
 
 .navbar .brand {
-    color: rgb(209, 182, 100);
+    color: #eae3c0;
     padding-right: 69px;
 }
 
 .navbar .menu {
     grid-column: 6 / 9;
     display: flex;
+}
+.navbar h1{
+    font-size: 37px;
+    padding-right:100px;
 }
 
 .menu li {
@@ -42,14 +46,15 @@ padding: 30px;
 
 .menu li a {
     text-decoration: none;
-    margin-right: 3em;
-    padding-left: 10px;
+    margin-right: 30px;
+    text-align: center;
+    padding-left: 30px;
     font-size: 1.3em;
-    color: rgb(250, 211, 93);
+    color: #eae3c0;
 }
 
 .menu li a:hover {
-    background-color: rgb(245, 217, 134);
+    background-color: #bdd1de;
     transition: all .3s;
     color: black;
   }
@@ -86,23 +91,22 @@ padding: 30px;
 }
 
 .content-info {
-    margin-top: 8em;
-    color: #d1b664;
-    font-family: 'Montserrat';
+    margin-top: 9em;
+    color: #eae3c0;
     text-align: center;
 }
 
 main h2{
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
-    font-family: 'Montserrat';
+    font-size: 95px;
     margin: 1rem;
 }
 
 main h3{
-    font-size: 2em;
+    font-size: 35px;
     padding-top: 10px;
-    color: rgb(209, 182, 100);
+    color: #bdd4e3;
     font-family: 'Montserrat';
     text-align: center;
     margin: 1rem;
@@ -112,7 +116,7 @@ main p{
     padding-top: 30px;
     font-family: 'Montserrat';
     font-size: 20px;
-    color: khaki;
+    color: #bdd4e3;
     text-align: center;
     margin: 1rem 0;
 }
@@ -121,10 +125,9 @@ main p{
 /*  MAS   */
 
 #mas div h1{
-    color: rgb(209, 182, 100);
+    color: #eae3c0;
     text-align: center;
     padding-top: 35px;
-    font-family: 'Montserrat';
     margin: 1rem 0;
     font-size: 3em;
 }
@@ -132,11 +135,12 @@ main p{
 .boton-mas{
     display: inline-block;
     text-decoration: none;
-    color: rgb(250, 211, 93);
+    color: #eae3c0;
     padding: 10px 30px;
-    border: 3px solid rgb(250, 211, 93);
+    border: 3px solid #b7c082;
     border-radius: 30px;
     margin-top: 20px;
+    margin-bottom: 50px;
     margin-left: 550px;
     transition: all 0.4s;
     }
@@ -147,12 +151,11 @@ main p{
 }
 
 footer{
-    background-color: slateblue;
+    background-color: #215a6d;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 75px;
     height: 10vh;
 }
 

@@ -14,13 +14,13 @@ body {
 }
 
 .hero {
-    background-image: url(./Images/imagenes/3.jpg);
+    background-color: #002d7e;
     background-size: 100%;
     opacity: 92%;
 }
 
 header {
-    background-color: rgb(23, 21, 21);
+    background-color: #154251;
 }
 
 .navbar {
@@ -29,8 +29,13 @@ grid-template-columns: repeat(9, 1fr);
 padding: 30px;
 }
 
+.navbar h1{
+    font-size: 37px;
+    padding-right:100px;
+}
+
 .navbar .brand {
-    color: rgb(209, 182, 100);
+    color: #eae3c0;
     padding-right: 69px;
 }
 
@@ -45,14 +50,15 @@ padding: 30px;
 
 .menu li a {
     text-decoration: none;
-    margin-right: 3em;
-    padding-left: 10px;
+    margin-right: 30px;
+    text-align: center;
+    padding-left: 30px;
     font-size: 1.3em;
-    color: rgb(250, 211, 93);
+    color: #eae3c0;
 }
 
 .menu li a:hover {
-    background-color: rgb(245, 217, 134);
+    background-color: #bdd1de;
     transition: all .3s;
     color: black;
   }
@@ -90,20 +96,20 @@ padding: 30px;
 
 .content-info {
     margin-top: 9em;
-    color: rgb(209, 182, 100);
+    color: #eae3c0;
     text-align: center;
 }
 
 main h2{
-    font-size: 3em;
+    font-size: 95px;
     text-align: center;
     margin: 1rem;
 }
 
 main h3{
-    font-size: 2em;
-    padding-top: 10px;
-    color: rgb(209, 182, 100);
+    font-size: 35px;
+    padding-top: 5px;
+    color: #bdd4e3;
     text-align: center;
     margin: 1rem;
 }
@@ -115,8 +121,8 @@ main img {
 }
 
 main h1{
-    padding-top: 150px;
-    color: rgb(209, 182, 100);
+    padding-top: 50px;
+    color: #bdd1de;
     font-family: 'Montserrat';
     text-align: center;
     background-color: rgba(43, 37, 37, 0.107);
@@ -124,9 +130,10 @@ main h1{
 }
 
 main p{
-    color: rgb(209, 182, 100);
+    color: #a298ea;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 15px;
+    font-size: 25px;
     font-family: 'Montserrat';
     margin: 1rem 0;
 }
@@ -152,7 +159,7 @@ main p{
 }
 
 #productos div h4{
-    color: rgb(250, 211, 93);
+    color: #eae3c0;
     background-color: rgba(59, 59, 63, 0.053);
     font-size: 22px;
     font-family: 'Montserrat';
@@ -160,7 +167,7 @@ main p{
 }
 
 #productos div p{
-    color: khaki;
+    color: #bdd1de;
     font-size: 17px;
     font-family: 'Montserrat';
 }
@@ -168,9 +175,9 @@ main p{
 .boton-mas{
 display: inline-block;
 text-decoration: none;
-color: rgb(250, 211, 93);
+color: #eae3c0;
 padding: 10px 30px;
-border: 3px solid rgb(250, 211, 93);
+border: 3px solid #e6f0af;
 border-radius: 30px;
 margin-top: 15px;
 font-family: 'Montserrat';
@@ -184,7 +191,7 @@ transition: all 0.4s;
 
 /* FOOTER */
 footer{
-    background-color: slateblue;
+    background-color: #215a6d;
     color: white;
     display: flex;
     justify-content: center;
