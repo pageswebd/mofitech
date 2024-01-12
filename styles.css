@@ -31,7 +31,7 @@ padding: 30px;
 
 .navbar h1{
     font-size: 37px;
-    padding-right:100px;
+    padding-right: -10px;
 }
 
 .navbar .brand {
@@ -46,6 +46,7 @@ padding: 30px;
 
 .menu li {
     list-style: none;
+    margin-top: 10px;
 }
 
 .menu li a {
@@ -57,11 +58,18 @@ padding: 30px;
     color: #eae3c0;
 }
 
-.menu li a:hover {
-    background-color: #bdd1de;
-    transition: all .3s;
-    color: black;
-  }
+#menu{
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
 
 .menu-bar {
     display: none;
@@ -78,7 +86,7 @@ padding: 30px;
     order:1;
 }
 .menu a:hover,.mostrar-menu:hover,.esconder-menu:hover {
-    color: turquoise;
+    color: rgb(245, 255, 216)
 }
 
 #check{
@@ -190,6 +198,7 @@ transition: all 0.4s;
 }
 
 /* FOOTER */
+
 footer{
     background-color: #215a6d;
     color: white;
@@ -197,6 +206,10 @@ footer{
     justify-content: center;
     align-items: center;
     height: 10vh;
+}
+
+footer p{
+    margin-top: 10px;
 }
 
 
@@ -256,6 +269,35 @@ footer{
     #check:checked ~ .menu ul{
         right: 0;
 
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #FF5A2C;
+        display: none;
+    }
+
+    .menu .navbar ul li a:hover {
+        color: #1B1726;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
     }
 /* PERSONAS */
 #productos{

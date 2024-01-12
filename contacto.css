@@ -46,6 +46,7 @@ padding: 30px;
 
 .menu li {
     list-style: none;
+    margin-top: 10px;
 }
 
 .menu li a {
@@ -56,12 +57,6 @@ padding: 30px;
     font-size: 1.3em;
     color: #eae3c0;
 }
-
-.menu li a:hover {
-    background-color: #bdd1de;
-    transition: all .3s;
-    color: black;
-  }
 
 .menu-bar {
     display: none;
@@ -78,7 +73,7 @@ padding: 30px;
     order:1;
 }
 .menu a:hover,.mostrar-menu:hover,.esconder-menu:hover {
-    color: turquoise;
+    color: rgb(245, 255, 216)
 }
 
 #check{
@@ -125,13 +120,16 @@ main p{
 
 form{
     font-family: 'Montserrat';
-    width: 500px;
+    width: 640px;
     margin: auto;
     background: rgba(0, 0, 0, 0.4);
     padding: 10px 20px;
     box-sizing: border-box;
     margin-top: 40px;
     border-radius: 7px;
+    margin-bottom: 40px;
+    border-radius: 7px;
+    border-color: #000; 
 }
 
 h2 {
@@ -181,6 +179,8 @@ cursor: pointer;
     padding-top: 20px;
 }
 
+/* FOOTER */ 
+
 footer{
     background-color: #215a6d;
     color: white;
@@ -188,6 +188,10 @@ footer{
     justify-content: center;
     align-items: center;
     height: 10vh;
+}
+
+footer p{
+    margin-top: 10px;
 }
 
 
