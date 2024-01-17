@@ -13,63 +13,56 @@ body {
 .hero {
     background-color: #002d7e;
     background-size: 100%;
-    opacity: 92%;
 }
+
+
+/* HEADER */ 
 
 header {
-    background-color: #154251;  
-}
-
-.navbar {
-display: grid;
-grid-template-columns: repeat(9, 1fr);
-padding: 30px;
-}
-
-.navbar .brand {
-    color: #eae3c0;
-    padding-right: 69px;
-}
-
-.navbar .menu {
-    grid-column: 6 / 9;
+    background-color: #154251;
+    height: 100px;
+    padding: 0 50px;
+    color: #ffffff;
     display: flex;
-}
-.navbar h1{
-    font-size: 37px;
-    padding-right:100px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.menu li {
-    list-style: none;
-    margin-top: 10px;
-}
-
-.menu li a {
-    text-decoration: none;
-    margin-right: 30px;
-    text-align: center;
-    padding-left: 30px;
-    font-size: 1.3em;
+.logo{
+    text-transform: uppercase;
     color: #eae3c0;
+    margin-left: 20px;
+    font-weight: 200;
+    font-size: 37px;
+    text-decoration: none;
 }
 
-.menu-bar {
-    display: none;
+.logo:hover{
+    color: #6cc091;
 }
 
-.mostrar-menu,.esconder-menu{
-    font-size: 30px;
-    cursor: pointer;
-    display: none;
+.menu a{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 19px;
     transition: 0.4s;
 }
 
-.mostrar-menu {
-    order:1;
+.mostrar-menu, .esconder-menu{
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.4s;
+    display: none;
 }
-.menu a:hover,.mostrar-menu:hover,.esconder-menu:hover {
-    color: rgb(245, 255, 216)
+
+.mostrar-menu{
+    order: 1;
+}
+
+.menu a:hover, .mostrar-menu:hover, .esconder-menu:hover{
+    color: #6cc091;
 }
 
 #check{
@@ -163,60 +156,42 @@ footer p{
 
 /*  RESPONSIVE */
 @media(max-width:768px){
-    .mostrar-menu, .esconder-menu{
-        display: block;
-    }
+  /* HEADER */ 
 
-    nav{
-        justify-content: flex-start;
-    }
+  .mostrar-menu, .esconder-menu{
+    display: block;
+}
 
-    .drawer{
-        display: block;
-    }
+.menu{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #154251;
+    right: -100%;
+    top: 0;
+    text-align: center;
+    padding: 100px 0px;
+    z-index: 100;
+    transition: 0.8s;
+}
 
-    nav h1 {
-        margin-left: 1rem;
-    }
+.menu a{
+    display: block;
+    padding: 20px;
+}
 
-    ul{
-        width: 100%;
-        height: 100vh;
-        background-color: darkslateblue;
-        left: 0;
-        text-align: center;
-        top: 0;
-        right: -100%;
-        padding: 100px 0px;
-        z-index: 100;
-        transition: 0.8s;
-        display: flex;
-        flex-direction: column;
-        align-content: stretch;
-    }
+.esconder-menu{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
 
-    nav ul li {
-        padding: 1rem 0;
-        display: flex;
-        flex-direction: column;
-        padding-left: 2rem;
-        border-bottom: solid .1rem rgba(201,196,196,0.4);
-    }
+#check:checked ~ .menu{
+    right: 0;
+}
 
-    .menu a {
-        display: block;
-        padding: 20px;
-    }
-    .esconder-menu{
-        position: absolute;
-        top: 40px;
-        right: 40px;
-    }
 
-    #check:checked ~ ul{
-        right: 0;
-
-    }
+    
 /* PERSONAS */
 #personas{
     flex-direction: column;
