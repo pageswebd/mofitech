@@ -120,6 +120,10 @@ main p{
     font-size: 3em;
 }
 
+#mas a{
+    padding-left:50px 
+}
+
 .boton-mas{
     display: inline-block;
     text-decoration: none;
