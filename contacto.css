@@ -225,10 +225,29 @@ footer p{
     right: 0;
 }
 
+.content-info h2{
+    font-size: 70px;
+}
 
+.content-info h3{
+    font-size: 20px;
+}
+
+.content-info p{
+    font-size: 17px ;
+}
+
+.ingresa a{
+ margin-left: 140px;
+}
+
+footer p{
+    font-size: 10px;
+    text-align: center;
+}
 
     form {
-        width: 100%;
+        width: 90%;
         
     }
 
