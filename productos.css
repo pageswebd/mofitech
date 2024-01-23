@@ -197,7 +197,7 @@ width: 350px;
 }
 
 div.galeria img {
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 
@@ -208,7 +208,6 @@ div.galeria:hover {
 
 div.pie {
     text-align: center;
-    
     text-shadow: 2px 2px 5px purple;
     padding: 10px;
 }
@@ -327,7 +326,7 @@ footer p{
 }
 
 .galeria-productos{
-    margin-left: -80px;
+    margin-right: 50px;
     margin-bottom: 30px;
 }
 
