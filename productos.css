@@ -243,4 +243,7 @@ footer p{
 .galeria-productos{
     margin-bottom: 30px;
 }
+    .galeria{
+    margin-rigth: 50px; 
+    }
 }
