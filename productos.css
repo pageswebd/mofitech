@@ -173,8 +173,6 @@ footer p{
     right: 0;
 }
 
-
-/* PERSONAS */
 #personas{
     flex-direction: column;
 }
@@ -192,7 +190,7 @@ margin: 10px 20px;
 box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgb(0,0,0,0.19);
 float: left;
 width: 350px;
-padding-left: -50px
+padding-left: -100px
 }
 
 div.galeria img {
@@ -339,7 +337,7 @@ footer p{
 }
 
 .galeria-productos{
-    margin-left: -120px;
+    margin-left: -170px;
     margin-bottom: 30px;
 }
 }
