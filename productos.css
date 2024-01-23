@@ -233,7 +233,7 @@ footer p{
 
 /*  RESPONSIVE */
 
-@media(max-width:768px){
+@media(max-width:991px){
 
  /* HEADER */ 
 
@@ -327,7 +327,7 @@ footer p{
 }
 
 .galeria-productos{
-    margin-left: -80px;
+    margin-left: -120px;
     margin-bottom: 30px;
 }
 }
