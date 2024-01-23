@@ -231,15 +231,15 @@ footer p{
     }
 
     .content-info h2{
-        font-size: 70px;
+        font-size: 50px;
     }
     
     .content-info h3{
-        font-size: 20px;
+        font-size: 15px;
     }
     
     .content-info p{
-        font-size: 17px ;
+        font-size: 11px ;
     }
     
     .ingresa a{
@@ -255,8 +255,16 @@ footer p{
         margin-bottom: 25px;
     }
 
+    .content-info img{
+    width: 80%;
+    }
 
-/* PERSONAS */
+    #productos img{
+    width: 80%;
+        padding-left: -30px;
+    }
+
+
 #productos{
     flex-direction: column;
 }
