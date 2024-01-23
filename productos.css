@@ -214,11 +214,11 @@ div.pie {
 }
 
 .content-info h3{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .content-info p{
-    font-size: 17px ;
+    font-size: 20px ;
 }
 
 .ingresa a{
@@ -231,8 +231,8 @@ footer p{
 }
 
 .galeria-productos{
-    margin-left: -80px;
-    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-bottom: 50px;
 }
 
 }
