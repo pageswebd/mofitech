@@ -184,7 +184,6 @@ h1{
 }
 
 div.galeria{
-
 padding-top: 20px;
 margin: 10px 20px;
 box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgb(0,0,0,0.19);
@@ -217,15 +216,15 @@ footer{
     height: 10vh;
 }
 .content-info h2{
-    font-size: 70px;
+    font-size: 55px;
 }
 
 .content-info h3{
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .content-info p{
-    font-size: 17px ;
+    font-size: 11px ;
 }
 
 .ingresa a{
@@ -242,101 +241,3 @@ footer p{
 
 /*  RESPONSIVE */
 
-@media(max-width:991px){
-
- /* HEADER */ 
-
- .mostrar-menu, .esconder-menu{
-    display: block;
-}
-
-.menu{
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #154251;
-    right: -100%;
-    top: 0;
-    text-align: center;
-    padding: 100px 0px;
-    z-index: 100;
-    transition: 0.8s;
-}
-
-.menu a{
-    display: block;
-    padding: 20px;
-}
-
-.esconder-menu{
-    position: absolute;
-    top: 40px;
-    right: 40px;
-}
-
-#check:checked ~ .menu{
-    right: 0;
-}
-
-
-/* PERSONAS */
-#personas{
-    flex-direction: column;
-}
-
-h1{
-    color: white;
-    text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
-    text-align: center;
-}
-
-div.galeria{
-padding-top: 20px;
-margin: 10px 10px;
-box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgb(0,0,0,0.19);
-float: left;
-width: 350px;
-}
-
-div.galeria img {
-    width: 100%;
-    height: auto;
-}
-
-div.galeria:hover {
-    border: 1px solid rgb(252, 240, 240);
-    transform: rotate(-3deg)
-}
-
-div.pie {
-    text-align: center;
-    text-shadow: 2px 2px 5px purple;
-    padding: 10px;
-}
-
-.content-info h2{
-    font-size: 70px;
-}
-
-.content-info h3{
-    font-size: 20px;
-}
-
-.content-info p{
-    font-size: 17px ;
-}
-
-.ingresa a{
- margin-left: 140px;
-}
-
-footer p{
-    font-size: 10px;
-    text-align: center;
-}
-
-.galeria-productos{
-    margin-left: -80px;
-    margin-bottom: 30px;
-}
-}
