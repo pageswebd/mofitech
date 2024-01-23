@@ -87,13 +87,13 @@ header {
 }
 
 main h2{
-    font-size: 140px;
+    font-size: 95px;
     text-align: center;
     margin: 1rem;
 }
 
 main h3{
-    font-size: 60px;
+    font-size: 40px;
     padding-top: 15px;
     color: #bdd4e3;
     text-align: center;
@@ -104,22 +104,18 @@ main p{
     color: #eae3c0;
     text-align: center;
     padding-top: 15px;
-    font-size: 45px;
+    font-size: 25px;
     font-family: 'Montserrat';
     margin: 1rem 0;
 }
 
 .galeria-productos{
-    padding-left: 50px;
+    padding-left: 150px;
     margin-top: 80px;
     margin-bottom: 10px;
     justify-content: space-around;
     align-items: center;
     font-family: 'Montserrat';
-}
-
-.galeria{
-    align-items: center;
 }
 
 /* FOOTER */
@@ -136,9 +132,6 @@ footer{
 footer p{
     margin-top: 10px;
 }
-
-
-
 
 
 
@@ -186,7 +179,6 @@ footer p{
     flex-direction: column;
 }
 
-
 h1{
     color: white;
     text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
@@ -199,46 +191,34 @@ margin: 10px 10px;
 box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgb(0,0,0,0.19);
 float: left;
 width: 350px;
-padding-left: -80px;
 }
 
 div.galeria img {
     width: 80%;
+    height: auto;
 }
 
 div.galeria:hover {
- border: 1px solid rgb(252, 240, 240);
-    transform: rotate(-3deg);
+    border: 1px solid rgb(252, 240, 240);
+    transform: rotate(-3deg)
 }
 
 div.pie {
     text-align: center;
     text-shadow: 2px 2px 5px purple;
-    padding: 8px;
-}
-
-
-/* FOOTER */
-
-footer{
-    background-color: #215a6d;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
+    padding: 10px;
 }
 
 .content-info h2{
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .content-info h3{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .content-info p{
-    font-size: 10px ;
+    font-size: 17px ;
 }
 
 .ingresa a{
