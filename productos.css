@@ -87,13 +87,13 @@ header {
 }
 
 main h2{
-    font-size: 95px;
+    font-size: 140px;
     text-align: center;
     margin: 1rem;
 }
 
 main h3{
-    font-size: 40px;
+    font-size: 60px;
     padding-top: 15px;
     color: #bdd4e3;
     text-align: center;
@@ -104,7 +104,7 @@ main p{
     color: #eae3c0;
     text-align: center;
     padding-top: 15px;
-    font-size: 25px;
+    font-size: 45px;
     font-family: 'Montserrat';
     margin: 1rem 0;
 }
@@ -116,6 +116,10 @@ main p{
     justify-content: space-around;
     align-items: center;
     font-family: 'Montserrat';
+}
+
+.galeria{
+    align-items: center;
 }
 
 /* FOOTER */
