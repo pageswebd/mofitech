@@ -192,15 +192,15 @@ footer p{
 }
 
 .content-info h2{
-    font-size: 70px;
+    font-size: 40px;
 }
 
 .content-info h3{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .content-info p{
-    font-size: 17px ;
+    font-size: 13px ;
 }
 
 .ingresa a{
@@ -212,8 +212,6 @@ footer p{
     text-align: center;
 }
 
-
-    
 /* PERSONAS */
 #personas{
     flex-direction: column;
