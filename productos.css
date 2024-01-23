@@ -110,7 +110,7 @@ main p{
 }
 
 .galeria-productos{
-    padding-left: 150px;
+    padding-left: 120px;
     margin-top: 80px;
     margin-bottom: 10px;
     justify-content: space-around;
@@ -192,7 +192,7 @@ margin: 10px 20px;
 box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgb(0,0,0,0.19);
 float: left;
 width: 350px;
-margin-left: -50px
+padding-left: -50px
 }
 
 div.galeria img {
@@ -207,11 +207,9 @@ div.galeria:hover {
 
 div.pie {
     text-align: center;
-    
     text-shadow: 2px 2px 5px purple;
     padding: 10px;
 }
-
 
 /* FOOTER */
 
@@ -226,8 +224,10 @@ footer{
 
 footer p{
     margin-top: 10px;
+    text-size:10px;
 }
-
+    
+}
 
 
 /*  RESPONSIVE */
