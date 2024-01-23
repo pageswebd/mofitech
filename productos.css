@@ -87,13 +87,13 @@ header {
 }
 
 main h2{
-    font-size: 105px;
+    font-size: 95px;
     text-align: center;
     margin: 1rem;
 }
 
 main h3{
-    font-size: 50px;
+    font-size: 40px;
     padding-top: 15px;
     color: #bdd4e3;
     text-align: center;
@@ -110,6 +110,7 @@ main p{
 }
 
 .galeria-productos{
+    padding-left: 150px;
     margin-top: 80px;
     margin-bottom: 10px;
     justify-content: space-around;
@@ -132,7 +133,10 @@ footer p{
     margin-top: 10px;
 }
 
+
+
 /*  RESPONSIVE */
+
 @media(max-width:768px){
 
  /* HEADER */ 
@@ -169,12 +173,9 @@ footer p{
     right: 0;
 }
 
-
-/* PERSONAS */
 #personas{
     flex-direction: column;
 }
-
 
 h1{
     color: white;
@@ -183,6 +184,7 @@ h1{
 }
 
 div.galeria{
+
 padding-top: 20px;
 margin: 10px 20px;
 box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgb(0,0,0,0.19);
@@ -193,7 +195,6 @@ width: 350px;
 div.galeria img {
     width: 80%;
     height: auto;
-    margin-left: -30px;
 }
 
 div.galeria:hover {
@@ -203,12 +204,10 @@ div.galeria:hover {
 
 div.pie {
     text-align: center;
+    
     text-shadow: 2px 2px 5px purple;
     padding: 10px;
 }
-
-
-/* FOOTER */
 
 footer{
     background-color: #215a6d;
@@ -219,8 +218,12 @@ footer{
     height: 10vh;
 }
 
+footer p{
+    margin-top: 10px;
+}
+
 .content-info h2{
-    font-size: 55px;
+    font-size: 70px;
 }
 
 .content-info h3{
@@ -241,9 +244,9 @@ footer p{
 }
 
 .galeria-productos{
+    margin-left: -80px;
     margin-bottom: 30px;
 }
-    .galeria{
-    margin-rigth: 50px; 
-    }
+
+}
 }
